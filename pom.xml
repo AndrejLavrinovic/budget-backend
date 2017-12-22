@@ -14,7 +14,8 @@
 
     <properties>
         <spring.starter.version>1.5.9.RELEASE</spring.starter.version>
-        <mainClass>/Users/andrej.lavrinovic/dev/tutorials/altech-budget/budget-backend/modules/budget/target/classes/ie/altech/budget/Application</mainClass>
+        <esapi.version>2.1.0.1</esapi.version>
+        <slf4j.version>1.7.7</slf4j.version>
     </properties>
 
     <dependencies>
@@ -25,6 +26,28 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${spring.starter.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.owasp.esapi/esapi -->
+        <dependency>
+            <groupId>org.owasp.esapi</groupId>
+            <artifactId>esapi</artifactId>
+            <version>${esapi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-ext</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
