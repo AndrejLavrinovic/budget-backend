@@ -22,6 +22,6 @@ public class Application {
         LOGGER.info("Log output is here ===> " + clean + " (cleaned)");
         LOGGER.info("Log output is here ===> " + encoded + " (encoded)");
 
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args); //NOSONAR
     }
 }
