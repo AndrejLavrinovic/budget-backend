@@ -10,6 +10,8 @@ import org.slf4j.Logger;
 public class Application {
     private final static Logger LOGGER = LoggerFactory.getLogger(Application.class);
 
+    private Application(){}
+
     public static void main(String... args){
 
         // ESAPI encodeing check
